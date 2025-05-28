@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import { Github, Linkedin, Mail, Download, ArrowDown } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 
 export function HeroSection() {
   const [isVisible, setIsVisible] = useState(false)
@@ -14,17 +15,22 @@ export function HeroSection() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center pt-16 pb-20 relative"
+      className="min-h-screen flex items-center justify-center pt-20 pb-20 relative"
     >
       <div
         className={`container mx-auto px-4 transition-all duration-1000 ${
           isVisible ? "opacity-100" : "opacity-0 translate-y-10"
         }`}
       >
-        <div className="flex flex-col items-center text-center">
+          <div className="flex flex-col items-center text-center">
           <div className="mb-6 overflow-hidden rounded-full border-4 border-primary/20 p-1">
-            <div className="h-32 w-32 rounded-full bg-gradient-to-br from-primary to-blue-400 flex items-center justify-center">
-              <span className="text-4xl font-bold text-white">PS</span>
+            <div className="h-32 w-32 rounded-full overflow-hidden relative">
+              <Image
+                src="/pranaya.jpg"
+                alt="Pranaya Shrestha"
+                layout="fill"
+                objectFit="cover"
+              />
             </div>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 animate-fade-in">
