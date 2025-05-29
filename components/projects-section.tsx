@@ -20,7 +20,7 @@ const projects: Project[] = [
     id: "emis",
     title: "EMIS Portal (+2 Level Management System)",
     description: "A role-based portal for school management, enabling admins to manage teachers/students and monitor activities. Teachers upload resources; students access materials via a clean interface.",
-    image: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg",
+    image: "Emis.png",
     technologies: ["Laravel (Blade, Livewire)", "PHP", "Tailwind CSS", "JavaScript", "Git"],
     github: "https://github.com/fazeshrestha009/EMIS-Portal"
   },
@@ -28,7 +28,7 @@ const projects: Project[] = [
     id: "futsal",
     title: "Futsal Booking System",
     description: "Developed a location-based futsal booking platform using Haversine formula to calculate distance. Implemented user authentication, map-based futsal search, and admin dashboard.",
-    image: "https://images.pexels.com/photos/3148452/pexels-photo-3148452.jpeg",
+    image: "FutsalBooking.png",
     technologies: ["PHP", "JavaScript", "HTML/CSS", "Git"],
     github: "https://github.com/fazeshrestha009/FutsalBooking"
   },
@@ -36,7 +36,7 @@ const projects: Project[] = [
     id: "movie",
     title: "Yts Movie Buying",
     description: "Developed a React-based movie platform that allows users to register, log in, add movies to cart, and complete purchases. Implemented user authentication, dynamic routing, shopping cart logic, and a responsive UI.",
-    image: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg",
+    image: "Ytsclone.png",
     technologies: ["React.js", "JavaScript", "HTML/CSS", "Git"],
     github: "https://github.com/fazeshrestha009/yts-clone-using-React"
   },
@@ -44,7 +44,7 @@ const projects: Project[] = [
     id: "student",
     title: "SP Record (Student Management System)",
     description: "Developed a student management system allowing users to view their records and attendance history in a clean, user-friendly interface. Implemented role-based access where admins can manage user profiles and track attendance by date.",
-    image: "https://images.pexels.com/photos/5428163/pexels-photo-5428163.jpeg",
+    image: "SPRecord.png",
     technologies: ["PHP", "JavaScript", "HTML/CSS", "Git"],
     github: "https://github.com/fazeshrestha009/SP-Record"
   }
